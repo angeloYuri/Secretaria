@@ -1,0 +1,105 @@
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, .container-fluid{
+  margin: 0;
+  height: 100%;
+}
+
+.lateral{
+  background-color: rgb(53,45,118);
+  height: 100%;
+  width: 125px;
+  position: fixed;
+}
+
+.lateral ul, li{
+  list-style-type: none;
+  color: white;
+}
+
+.lateralbtn{
+  width: 100%;
+}
+.lateralbtn button{
+  background-color: rgb(75,65,169);
+  border: none;
+}
+
+.lateralbtn button:hover{
+  background-color: white;
+  color: rgb(53,45,118);
+}
+
+.logo{
+  background-color: white;
+}
+
+.topo{
+  border-bottom: 2px solid rgb(53,45,118);
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+.logo img{
+  margin-left: 50px;
+}
+
+.avisos{
+  border: 1px solid rgb(180,180,180);
+  height: auto;
+  width: 500px;
+}
+
+.d1 h1{
+  font-size: 100px;
+  color: orange;
+  margin-top: 35px;
+}
+
+.tela{
+  margin-left: 120px;
+  margin-top: 100px;
+}
+
+.botoes button{
+  height: 135px;
+  width: 100%;
+}
+
+.login a{
+  text-decoration: none;
+  color: rgb(53,45,118);
+}
+
+.login a:hover{
+  color: orange;
+}
+
+.d1{
+  height: 200px;
+  border: 2px solid rgb(53,45,118);
+  border-radius: 5%;
+}
+
+.chamar{
+  background-color: rgb(53,45,118);
+  color: white;
+}
+
+@media only screen and (max-width: 479px) {
+  .logo img{    width: 150px;  }
+  .lateral {  margin-top: 86px;  }
+}
+@media only screen and (min-width: 480px) {
+  .logo img{    width: 200px;  }
+  .lateral {  margin-top: 96px;  }
+}
+@media only screen and (min-width: 720px) {
+  .logo img{    width: 200px;  }
+  .lateral {  margin-top: 96px;  }
+}
