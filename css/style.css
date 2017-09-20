@@ -8,6 +8,11 @@ html, body, .container-fluid{
   height: 100%;
 }
 
+.btn-lg.menu-lg {
+  margin-top: 2px;
+  border-radius: 0px;
+}
+
 .lateral{
   background-color: rgb(53,45,118);
   height: 100%;
